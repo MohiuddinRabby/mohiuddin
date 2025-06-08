@@ -11,6 +11,9 @@
     "gatsby"
   ],
   "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
   "browserslist": "> 0.25%, not dead",
   "scripts": {
     "build": "gatsby build",
@@ -74,6 +77,7 @@
     "gatsby-remark-code-titles": "^1.1.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "packageManager": "yarn@3.2.4"
   }
 }
